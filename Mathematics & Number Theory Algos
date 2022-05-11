@@ -1,0 +1,18 @@
+# Factorial of Number:
+                      n = n * (n-1)
+1. For Loop Method - 
+                   for i in range(n):
+                      if n == 1 or n == 0:
+                         return 1
+                      if i <= n:
+                         return result *= i
+  
+2. Recursion Method - 
+                   def Fact(arr, n):
+                       if n == 1 or n == 0:
+                          return 1
+                       return result = n * Fact(arr, n-1)
+
+# Trailing Zeros in Factorial:
+                             Zeros in the end of the result of factorial.
+  
