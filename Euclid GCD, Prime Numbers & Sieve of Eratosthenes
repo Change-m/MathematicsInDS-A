@@ -1,0 +1,14 @@
+1.  Sieve of Eratosthenes (Prime numbers): 
+                                          A prime number don't have factor between 1 --> n^1/2 (1 is not including n^1/2 is including).
+                                          Using method of Sieve of Eratosthenes- Example:
+                                          1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 (Find prime no.)
+                                          we use boolean[] function mark all no. true
+                                          we need to find the multiple of (n^1/2) means (12)^1/2 = 3 app. mark false for all the multiple of 2, 3
+                                          
+                                          0 = false, 1 = false
+                                          for i in range (2, n, i)
+                                             arr[i] = false
+                                             
+                                             
+2.  GCD (a,b) = (b, a % b):       
+                          GCD (a, b) = gcd(a - b, b)
