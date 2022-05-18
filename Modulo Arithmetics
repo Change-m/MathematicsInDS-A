@@ -1,5 +1,5 @@
 Modulo Arithmetics:
-                   a ^ b, if b is odd than a. a^(b - 1)
+                   a ^ b, if b is odd than (a. a^(b - 1))
                    a ^ b, if b is even than (a^2)^b/2
                    
                    (a + b) % n = (a % n + b % n) / n
